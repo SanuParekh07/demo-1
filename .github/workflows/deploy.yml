@@ -18,9 +18,9 @@ jobs:
         with:
           dotnet-version: 6.0.x
         
-      # Step 3: Restore dependencies
-      - name: Install dependencies
-        run: dotnet restore ./NewMexicoAPI/NewMexicoAPI.csproj
+#      # Step 3: Restore dependencies
+#      - name: Install dependencies
+#        run: dotnet restore ./NewMexicoAPI/NewMexicoAPI.csproj
 
       # Step 4: Build the project
       - name: Build
